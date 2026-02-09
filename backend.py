@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 # ---------- DB config (prefer environment variables) ----------
 DB_CONFIG = dict(
     user=os.environ.get("DB_USER", "root"),
-    password=os.environ.get("DB_PASSWORD", "Sonudev2002@"),
+    password=os.environ.get("DB_PASSWORD", "xxxxxxxxxx"),
     host=os.environ.get("DB_HOST", "localhost"),
     database=os.environ.get("DB_NAME", "msep_038"),
     port=int(os.environ.get("DB_PORT", "3306")),
